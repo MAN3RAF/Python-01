@@ -18,3 +18,6 @@ plant3 = Plant("Cactus", 15, 120)
 plant1.info()
 plant2.info()
 plant3.info()
+
+if __name__ == "__main__":
+    dt_garden_data()

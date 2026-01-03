@@ -30,3 +30,6 @@ for i in range(6):
 print("=== Day 7 ===")
 rose.get_info()
 rose.weekly_growth()
+
+if __name__ == "__main__":
+    ft_plant_growth()

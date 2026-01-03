@@ -17,3 +17,6 @@ plant4 = Plant("Sunflower", 80, 45)
 plant5 = Plant("Fern", 15, 120)
 
 print("\nTotal plants created: 5")
+
+if __name__ == "__main__":
+    ft_plant_factory()

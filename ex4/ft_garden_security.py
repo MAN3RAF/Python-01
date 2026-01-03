@@ -47,3 +47,6 @@ print(rose.get_height())
 print(rose.get_age())
 print(rose.get_info())
 '''
+
+if __name__ == "__main__":
+    ft_garden_security()
