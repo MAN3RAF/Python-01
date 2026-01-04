@@ -19,17 +19,15 @@ class Plant:
         print(f"{self.name}: {self.height}cm, {self.age} days old")
 
 
-rose = Plant("Rose", 25, 30)
-
-print("=== Day 1 ===")
-rose.get_info()
-
-for i in range(6):
-    rose.grow()
-
-print("=== Day 7 ===")
-rose.get_info()
-rose.weekly_growth()
-
 if __name__ == "__main__":
-    ft_plant_growth()
+    rose = Plant("Rose", 25, 30)
+
+    print("=== Day 1 ===")
+    rose.get_info()
+
+    for i in range(6):
+        rose.grow()
+
+    print("=== Day 7 ===")
+    rose.get_info()
+    rose.weekly_growth()
