@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 class Plant:
+    """Track plant growth over time including height and age."""
     def __init__(self, name, height, age):
         self.name = name
         self.height = height

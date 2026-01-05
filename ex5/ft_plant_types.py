@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 class Plant:
+    """Base plant type shared by flowers, trees, and vegetables."""
     def __init__(self, name, height, age):
         self.name = name
         self.height = height
@@ -8,6 +9,7 @@ class Plant:
 
 
 class Flower(Plant):
+    """Flower that can bloom and carries a color attribute."""
     def __init__(self, name, height, age, color):
         super().__init__(name, height, age)
         self.color = color
@@ -17,6 +19,7 @@ class Flower(Plant):
 
 
 class Tree(Plant):
+    """Tree with trunk diameter that can compute provided shade."""
     def __init__(self, name, height, age, trunk_diameter):
         super().__init__(name, height, age)
         self.trunk_diameter = trunk_diameter
@@ -27,6 +30,7 @@ class Tree(Plant):
 
 
 class Vegetable(Plant):
+    """Vegetable tracking harvest season and nutritional value."""
     def __init__(self, name, height, age, harvest_season, nutritional_value):
         super().__init__(name, height, age)
         self.harvest_season = harvest_season

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 class Plant:
+    """Basic plant record holding name, height, and age."""
     def __init__(self, name, height, age):
         self.name = name
         self.height = height

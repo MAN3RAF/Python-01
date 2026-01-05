@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 class SecurePlant:
+    """Plant model with guarded setters to reject invalid updates."""
     def __init__(self, name):
         self.name = name
         self.height = 0

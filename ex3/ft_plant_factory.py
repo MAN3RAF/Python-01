@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 class Plant:
+    """Simple factory-created plant with basic attributes."""
     def __init__(self, name, height, age):
         self.name = name
         self.height = height
