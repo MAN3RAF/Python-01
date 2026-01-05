@@ -33,23 +33,22 @@ class SecurePlant:
         print(f"Corrent plant: {self.name} ({self.height}cm, {self.age} days)")
 
 
-if __name__ == "__main__":
-    print("=== Garden Security System ===")
-    
-    rose = SecurePlant("Rose")
-    rose.set_height(25)
-    rose.set_age(30)
-    
-    print("")
-    
-    rose.set_height(-5)
-    
-    print("")
-    
-    rose.get_info()
+print("=== Garden Security System ===")
 
-    '''
-    print(rose.get_height())
-    print(rose.get_age())
-    print(rose.get_info())
-    '''
+rose = SecurePlant("Rose")
+rose.set_height(25)
+rose.set_age(30)
+
+print("")
+
+rose.set_height(-5)
+
+print("")
+
+rose.get_info()
+
+'''
+print(rose.get_height())
+print(rose.get_age())
+print(rose.get_info())
+'''

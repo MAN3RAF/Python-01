@@ -36,35 +36,34 @@ class Vegetable(Plant):
         print(f"{self.name} is rich in {self.nutritional_value}")
 
 
-if __name__ == "__main__":
-    print("=== Garden Plant Types ===")
+print("=== Garden Plant Types ===")
 
-    print("")
+print("")
 
-    rose = Flower("rose", 25, 30, "red")
-    tulip = Flower("tulip", 15, 25, "yellow")
-    print(
-        f"{rose.name} (Flower): {rose.height}cm, "
-        f"{rose.age} days, {rose.color} color"
-    )
-    rose.bloom()
+rose = Flower("rose", 25, 30, "red")
+tulip = Flower("tulip", 15, 25, "yellow")
+print(
+    f"{rose.name} (Flower): {rose.height}cm, "
+    f"{rose.age} days, {rose.color} color"
+)
+rose.bloom()
 
-    print("")
+print("")
 
-    oak = Tree("Oak", 500, 1825, 50)
-    birch = Tree("Birch", 400, 1545, 35)
-    print(
-        f"{oak.name} (Tree): {oak.height}cm, "
-        f"{oak.age} days, {oak.trunk_diameter}cm diameter"
-    )
-    oak.produce_shade()
+oak = Tree("Oak", 500, 1825, 50)
+birch = Tree("Birch", 400, 1545, 35)
+print(
+    f"{oak.name} (Tree): {oak.height}cm, "
+    f"{oak.age} days, {oak.trunk_diameter}cm diameter"
+)
+oak.produce_shade()
 
-    print("")
+print("")
 
-    tomato = Vegetable("Tomato", 80, 90, "summer", "vitamin C")
-    potato = Vegetable("Potato", 30, 70, "spring", "vitamin A")
-    print(
-        f"{tomato.name} (Vegetable): {tomato.height}cm, "
-        f"{tomato.age} days, {tomato.harvest_season} harvest"
-    )
-    tomato.vitamin()
+tomato = Vegetable("Tomato", 80, 90, "summer", "vitamin C")
+potato = Vegetable("Potato", 30, 70, "spring", "vitamin A")
+print(
+    f"{tomato.name} (Vegetable): {tomato.height}cm, "
+    f"{tomato.age} days, {tomato.harvest_season} harvest"
+)
+tomato.vitamin()
